@@ -7,7 +7,7 @@ public class Principal {
 	public static void main(String[] args) throws PartidoException{
 		boolean partidoCorrecto;
 		
-//Primer Partido
+//Primer Partido-
 		try {
 		Equipo equipoLocal1 = crearEquipo("local");
 		Equipo equipoVisitante1 = crearEquipo("visitante");
@@ -18,7 +18,7 @@ public class Principal {
 		}catch(PartidoException ex) {
 			System.err.println(ex.getMessage());			
 		}
-//Segundo Partido	
+//Segundo Partido-
 		try {
 		Equipo equipoLocal2 = crearEquipo("local");
 		Equipo equipoVisitante2 = crearEquipo("visitante");
@@ -30,7 +30,7 @@ public class Principal {
 			System.err.println(ex.getMessage());
 		}
 		
-//Tercer Partido
+//Tercer Partido-
 		try {
 		Equipo equipoLocal3 = crearEquipo("local");
 		Equipo equipoVisitante3 = crearEquipo("visitante");
