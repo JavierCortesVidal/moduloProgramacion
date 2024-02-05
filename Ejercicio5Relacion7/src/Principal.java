@@ -7,7 +7,7 @@ public class Principal {
 	public static void main(String[] args) throws PartidoException{
 		boolean partidoCorrecto;
 		
-//Primer Partido--
+//Primer Partido
 		try {
 		Equipo equipoLocal1 = crearEquipo("local");
 		Equipo equipoVisitante1 = crearEquipo("visitante");
